@@ -1,0 +1,20 @@
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/
+
+# macOS
+.DS_Store
+
+# pyenv
+.python-version
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Output folder
+Output/
+
+# Virtual environment
+venv/
