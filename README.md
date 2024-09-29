@@ -2,7 +2,7 @@
 
 # PDFxtract
 
-[![Try PDFxtract](https://img.shields.io/badge/Try-PDFxtract-brightgreen?style=for-the-badge&logo=streamlit)](https://pdfxtract.streamlit.app/)
+[![Try PDFxtract](https://img.shields.io/badge/Try-PDFxtract-brightgreen?style=for-the-badge&logo=streamlit)](https://pdfxtractor.streamlit.app/)
 
 **Textbook Content Extractor**
 </div>
@@ -10,7 +10,7 @@
 ## Overview
 PDFxtract is a powerful tool designed to extract and categorize content from PDF textbooks. It separates questions from other content, making it easier for students and educators to study and analyze textbook material.
 
-Try PDFxtract here: [PDFxtract Tool](https://pdfxtract.streamlit.app/)
+Try PDFxtract here: [PDFxtract Tool](https://pdfxtractor.streamlit.app/)
 
 ## Features
 
