@@ -81,7 +81,6 @@ pip install -r requirements.txt
 
 5. Once processing is complete, use the download buttons to get your extracted content.
 
-6. To process another file, click on "Process Another File" and start over.
 
 
 ## Acknowledgments

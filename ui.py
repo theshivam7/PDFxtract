@@ -1,20 +1,53 @@
 import streamlit as st
 from app import process_pdf
-import os  # Add this import statement
+import os
 
 def main():
     st.set_page_config(page_title="PDFxtract", page_icon="📚", layout="wide")
     
-    # Custom CSS for improved appearance
+    # Custom CSS for improved appearance and text visibility
     st.markdown("""
     <style>
     .main {
         padding: 2rem;
         border-radius: 0.5rem;
-        background-color: #f0f2f6;
     }
     .stButton>button {
         width: 100%;
+        background-color: #4CAF50 !important;
+        color: white !important;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    .stButton>button:hover {
+        background-color: #45a049 !important;
+    }
+    /* Ensure text color adapts to both light and dark modes */
+    body {
+        color: var(--text-color);
+    }
+    .stTextInput>div>div>input {
+        color: var(--text-color);
+    }
+    .stMarkdown {
+        color: var(--text-color);
+    }
+    /* Custom colors for success and info messages */
+    .stSuccess {
+        background-color: #4CAF50 !important;
+        color: white !important;
+    }
+    .stInfo {
+        background-color: #2196F3 !important;
+        color: white !important;
     }
     </style>
     """, unsafe_allow_html=True)
