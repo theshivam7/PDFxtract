@@ -19,7 +19,7 @@ def extract_text_from_pdf(file):
     return text
 
 def split_content(text):
-    prompt = f"""Split the following text into questions and other content (including titles, bullet points, poetry, author names, formulas, and paragraphs if applicable). 
+    prompt = f"""Split the following text into questions (including fill in the blanks and MCQ) and other content (including titles, bullet points, poetry, author names, formulas, and paragraphs if applicable). 
     Ignore any watermarks, footers, year or version information, or title or section number.
     Format the output as follows:
     
